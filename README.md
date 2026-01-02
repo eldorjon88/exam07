@@ -240,6 +240,30 @@ DELETE /appointments/{id}/
 
 ---
 
+```
+clinic_api/
+├── apps/
+│   ├── users/
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+│   │   ├── permissions.py
+│   ├── doctors/
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+│   ├── appointments/
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+├── core/
+│   ├── settings.py
+│   ├── urls.py
+├── .env.example
+├── requirements.txt
+├── README.md
+```
+
 ## 📌 ALL ENDPOINTS (FULL LIST)
 
 **Base URL**
