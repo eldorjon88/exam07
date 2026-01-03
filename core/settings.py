@@ -143,7 +143,12 @@ INSTALLED_APPS = [
     'apps.users',
     'apps.doctors',
     'apps.appointments',
+    'apps.users',
+    'apps.doctors',
+    'apps.appointments',
 ]
+
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
